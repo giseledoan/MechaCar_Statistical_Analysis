@@ -16,10 +16,10 @@
 ## Summary Statistics on Suspension Coils
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 - Look at the total_summary table for all lots
-- ![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/Suspension_Coil_total_summary.png)
+![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/Suspension_Coil_total_summary.png)
 - The variance of all lots is ~62.29, less than the design specification. 
 - However, when we look at the lot_summary table for each lot. 
-- - ![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/Suspension_Coil_lot_summary.png)
+![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/Suspension_Coil_lot_summary.png)
 - Variance of lot 3 is much more than specification. We should investigate lot 3. 
 
 ## T-Tests on Suspension Coils
@@ -28,12 +28,12 @@
 - The p-value is 0.06028, which is larger than the assumed significance level of 0.05 --> there is not sufficient evidence to rejct the null hypothesis.We would state that the mean of 3 lots combined (1498.78) and the mean of the presumed population (1500) are statistically similar.
 
 - Look at the t-test lot 1 & lot 2:
-- ![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/t-test-lot1.png)
-- ![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/t-test-lot2.png)
+![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/t-test-lot1.png)
+![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/t-test-lot2.png)
 - Lot 1 and 2 have presumed population of 1500 and 1500.2. The p-values of lot 1 (1) and lot 2 (0.6072) are larger than the assumed significant level of 0.05 --> we cannot reject the null hypothesis that there is no statistical difference between the observed sample mean and its presumed population mean.
 
 - Look at the t-test lot 3:
--![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/t-test-lot3.png)
+![alt text](https://github.com/giseledoan/MechaCar_Statistical_Analysis/blob/main/images/t-test-lot3.png)
 - The p-value of lot 3 is 0.04168 which is lower than the significant level of 0.05 --> we have to reject the null hyphothesis that the observed sample mean and its presumed population mean have no difference. We should investigate lot 3 to see why it has such difference. 
 
 ## Study Design: MechaCar vs Competition
